@@ -1,12 +1,12 @@
 public class exercise1 {
 
-    static boolean iwillnotCheat = true;
+    static boolean iwillNotCheat = true;
     static boolean IwillWin = true;
 
     public static void main(String[] args) throws Exception {
 
     // Precondition
-    assert iwillnotCheat == true: "[Sighs] You could've made it if you didn't cheat!"; // agreement
+    assert iwillNotCheat == true: "[Sighs] You could've made it if you didn't cheat!"; // agreement
     
     enterCompetition();
 
