@@ -8,10 +8,10 @@ public class App {
 
         System.out.println("JIU'S ADORABLE MALTICHON!");
         System.out.println(" ");
+        System.out.println("Name: " + myPet.Name);
+        System.out.println(" ");
 
         myPet.bark();
-        System.out.println(" ");
-        System.out.println("Name: " + myPet.Name);
         System.out.println(" ");
         System.out.println("Elle has " + myPet.eyeColor);
         System.out.println("She's " + myPet.Height);
