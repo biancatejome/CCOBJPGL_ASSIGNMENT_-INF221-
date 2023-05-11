@@ -7,10 +7,11 @@ public class App {
 
         // Create object from pet class
         Pet myPet = new Pet();
-
-        myPet.meow();
+        
         System.out.println("Name: " + myPet.name);
         System.out.println("Age: " + myPet.age);
+        
+        myPet.meow();
         System.out.println(" ");
         System.out.println(myPet.eyeColor);
         System.out.println(myPet.furColor);
