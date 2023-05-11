@@ -12,7 +12,6 @@ public class App {
         System.out.println("Age: " + myPet.age);
         
         myPet.meow();
-        System.out.println(" ");
         System.out.println(myPet.eyeColor);
         System.out.println(myPet.furColor);
         System.out.println(myPet.furLength);
