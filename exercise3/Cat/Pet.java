@@ -5,7 +5,6 @@ public class Pet implements Himalayan {
     String age = "4 years old";
         
     @Override
-
     public void meow() {
         System.out.println(" ");
         System.out.println("[meows] Look at my adorable Himalayan cat seeking attention with his little meows!]");
