@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f5c5c6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
+   <children>
+      <Label layoutX="154.0" layoutY="49.0" prefHeight="120.0" prefWidth="552.0" text="WELCOME TO JIU'S" textFill="#97494a">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="183.0" text="Username:" textFill="#b94547">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="101.0" layoutY="223.0" text="Password:" textFill="#b94547">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mytextfield" layoutX="195.0" layoutY="184.0" prefHeight="25.0" prefWidth="275.0" promptText="Enter your username" style="-fx-background-color: #fdf5f5;" />
+      <PasswordField fx:id="mypasswordfield" layoutX="195.0" layoutY="224.0" prefHeight="25.0" prefWidth="275.0" promptText="Enter your password" style="-fx-background-color: #fdf5f5;" />
+      <Label layoutX="154.0" layoutY="109.0" text="CupidSpace!" textFill="#e35c5d">
+         <font>
+            <Font name="Bookshelf Symbol 7" size="44.0" />
+         </font>
+      </Label>
+      <Button fx:id="mybutton" layoutX="273.0" layoutY="300.0" mnemonicParsing="false" onAction="#login" style="-fx-background-color: #e35c5d;" text="LOGIN" textFill="#f8dfe0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="120.0" fitWidth="152.0" layoutX="365.0" layoutY="67.0" opacity="0.82" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../hello-kitty-sanrio-puroland-cinnamoroll-my-melody-cinnamoroll-91b79344a3274c10bc7f7ea80dd107fb.png" />
+         </image>
+         <effect>
+            <ColorAdjust contrast="0.05" hue="0.03" saturation="0.14" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="95.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="110.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../v3lhungl72gnvqtcniomm2790h-fc497baeb0377da6475d9ba7db3aa9dd.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.19" contrast="0.12" hue="0.16" saturation="-0.07" />
+         </effect>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e35c5d" height="37.0" layoutX="-3.0" layoutY="-11.0" stroke="TRANSPARENT" strokeType="INSIDE" width="609.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e35c5d" height="37.0" layoutX="-1.0" layoutY="372.0" stroke="TRANSPARENT" strokeType="INSIDE" width="609.0" />
+      <ImageView fitHeight="25.0" fitWidth="37.0" layoutX="430.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../hello-kitty-my-melody-sanrio-clip-art-others-a59647c0e64af0f42ca2f11819a063b5.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.16" hue="0.07" saturation="-0.07" />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="37.0" layoutX="430.0" layoutY="227.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../hello-kitty-my-melody-sanrio-clip-art-others-a59647c0e64af0f42ca2f11819a063b5.png" />
+         </image>
+         <effect>
+            <ColorAdjust brightness="0.16" hue="0.07" saturation="-0.07" />
+         </effect>
+      </ImageView>
+      <Label fx:id="mywarninglabel" layoutX="191.0" layoutY="271.0" text="! Username and Password Does Not Match !" textFill="#b94547" visible="false">
+         <font>
+            <Font name="System Bold Italic" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
