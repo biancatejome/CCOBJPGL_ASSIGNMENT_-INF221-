@@ -64,7 +64,7 @@ public class ClassmateController {
         Alert alert = new Alert(AlertType.INFORMATION);
 
         if (sourceButton.equals(btn1)) {
-            alert.setContentText("Here's my fave person #1! She's" + thea.getNickname() + " " + thea.getAge() + " and her hobbies are " + thea.getHobbies() + "." + "Her MBTI is " + thea.getMBTI() + " and is a " + thea.getZodiac());
+            alert.setContentText("Here's my fave person #1! She's" + thea.getNickname() + " " + thea.getAge() + " and her hobbies are " + thea.getHobbies() + "." + " Her MBTI is " + thea.getMBTI() + " and is a " + thea.getZodiac());
         }
 
         if (sourceButton == btn2) {
